@@ -8,9 +8,9 @@ import json , sys , hashlib , os , time , marshal, getpass
 ###################################################################
 #                             COLOR
 if sys.platform in ["linux","linux2"]:
-	W = '\033[33;1m'
-        G = '\033[32;1m'
-        R = '\033[31;1m'
+	W ='\033[33;1m'
+        G ='\033[32;1m'
+        R ='\033[31;1m'
 else:
 	W = ''
 	G = ''
